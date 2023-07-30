@@ -1,0 +1,306 @@
+/*  
+-----------------------------------------------------------------------
+*  Theme Name: Mostaqel - Responsive FreeLancing Platforme Template   *
+*  Author: Group -3                                                   * 
+*  Version: 1.0.0                                                     *
+*  Created: 2023                                                      *
+*  File Description: Main css file of the template                    *
+-----------------------------------------------------------------------
+*/
+
+/***************
+1.BASIC
+2.HELPER
+3.BOOTSTRAP EDITOR
+4.HERO SECTION
+5.HELP SECTION
+6.MOSTAQEL HELP
+7.GET FREELANCERS SECTION
+8.READY SECTION
+9.ASK SECTION
+10.FOOTER SECTION
+*****************/
+
+/***BASIC**/
+:root {
+  --bgColor: #2386c8;
+  --textColor: #2386c8;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box !important;
+  font-family: "Tajawal", sans-serif;
+  background-color: #eee !important;
+}
+
+/****END BASIC*****/
+
+/***HELPERS***/
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+span {
+  font-family: 'Roboto', sans-serif;
+}
+
+h1.font,
+h2.font,
+h3.font,
+h4.font,
+h5.font,
+h6.font,
+span.font,
+p.font {
+  font-weight: 600 !important;
+}
+
+a,
+a:hover,
+a:focus,
+button {
+  text-decoration: none !important;
+  outline: none !important;
+}
+
+.bg-primary {
+  background-color: var(--bgColor) !important;
+}
+
+.nav-link:hover {
+  background-color: rgb(44, 171, 227, 0.5);
+}
+
+.text-primary {
+  color: var(--textColor);
+}
+
+.fs-p1 {
+  font-size: 14px;
+}
+
+.fs-p2 {
+  font-size: 16px;
+}
+
+.fs-p3 {
+  font-size: 20px;
+}
+
+.pb-0 {
+  padding-bottom: 0px;
+}
+.mb-0 {
+  margin-bottom: 0px;
+}
+
+.w-15 {
+  width: 15%;
+}
+
+.text-p {
+  color: #545454;
+}
+
+.mr-1 {
+  margin-right: 5px;
+}
+.mr-2 {
+  margin-right: 10px;
+}
+.mr-3 {
+  margin-right: 15px;
+}
+
+.mr-4 {
+  margin-right: 20px;
+}
+
+/*****END HELPERS***/
+
+/****Bootstrap Editor ****/
+
+.navbar-toggler:focus {
+  box-shadow: none !important;
+}
+
+/****Bootstrap Editor ******/
+
+/***START HERO SECTION ***/
+#hero {
+  background-image: url("https://i.ibb.co/D51KBn8/Hero-Bg.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 700px;
+  position: relative;
+}
+
+#hero .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #000;
+  opacity: 0.6;
+  z-index: 1;
+}
+
+#hero .hero-content {
+  position: absolute;
+  color: #fff;
+  z-index: 2;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+#hero .hero-content__bottom .form-control {
+  border-radius: 0px !important;
+  outline: none !important;
+  text-indent: 5px;
+}
+
+#hero .hero-content__bottom .form-control:focus {
+  outline: none !important;
+  box-shadow: none;
+}
+
+#hero .hero-content__bottom button {
+  border-radius: 0px;
+}
+
+#hero .hero-content__botton a {
+  color: #fff;
+  border-radius: 0px;
+}
+
+#hero .hero-content__botton a:hover {
+  background-color: #fff;
+  color: #2386c8;
+}
+
+/***END HERO SECTION ***/
+
+/******TRUSTED SECTION*****/
+
+#trusted {
+  padding: 50px 0px;
+}
+
+/********END TRUSTED SECTION*******/
+
+/***START HELP SECTION****/
+
+#help {
+  padding: 50px 0px;
+  background-color: #f9f9f9;
+}
+
+/******END HELP SECTION*******/
+
+/***START MOSTAQEL HELP SECTION****/
+
+#mostaqel-help {
+  padding: 50px 0px;
+}
+
+/******END MOSTAQEL HELP SECTION*******/
+
+/***START GET FREELANCERS SECTION****/
+
+#freelancers {
+  padding: 50px 0px;
+  background-color: #f9f9f9;
+}
+
+#freelancers .btn-project {
+  color: #333;
+}
+
+#freelancers .btn-project:hover {
+  color: var(--textColor);
+}
+
+/******END GET FREELANCERS SECTION*******/
+
+/***START READY SECTION****/
+
+#ready {
+  padding: 50px 0px;
+  background-color: var(--bgColor);
+}
+
+#ready > div a:hover {
+  background-color: transparent !important;
+  color: #fff !important;
+}
+
+/******END READY SECTION*******/
+
+/***START ASK SECTION****/
+
+#ask {
+  padding: 50px 0px;
+}
+
+.accordion .accordion-item {
+  border: 0;
+  background-color: transparent;
+  border-bottom: 1px solid #c1c1c1;
+}
+
+.accordion-item:first-of-type {
+  border-top-right-radius: 0.25rem;
+  border-top-left-radius: 0.25rem;
+}
+
+.accordion-header {
+  margin-bottom: 0;
+}
+.accordion .accordion-item .accordion-button {
+  padding: 20px 0;
+  font-size: 18px;
+  background-color: transparent;
+  line-height: 31px;
+}
+
+.accordion-item:first-of-type .accordion-button {
+  border-top-right-radius: calc(0.25rem - 1px);
+  border-top-left-radius: calc(0.25rem - 1px);
+}
+
+.accordion-button:focus {
+  box-shadow: none;
+  border-color: unset;
+}
+
+.accordion .accordion-button:not(.collapsed) {
+  background: transparent;
+  box-shadow: none;
+  color: #2386c8;
+}
+
+.accordion .accordion-item .accordion-body {
+  color: #333;
+  padding: 0 0 1rem;
+}
+/******END ASK SECTION*******/
+
+/******START FOOTER****/
+#footer {
+  padding: 10px 0px;
+  background-color: #f8f8f8;
+  border: 1px solid #c8c8c831;
+}
+
+/*****END FOOTER *****/
+.swal2-modal,
+.swal2-container {
+  z-index: 1000;
+}

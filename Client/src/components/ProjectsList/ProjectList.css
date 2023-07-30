@@ -1,0 +1,61 @@
+a {
+    color: #000;
+    text-decoration: none;
+  }
+  
+  .projects-list, .project-details-page {
+    background-color: #eee;
+  }
+  .projects-list .fund-minmax,
+  .projects-list .page-title, .project-details-page .fund-minmax,
+  .project-details-page .page-title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .projects-list .projects-filter .dropdown-toggle,
+  .projects-list .projects-filter .dropdown-menu, .project-details-page .projects-filter .dropdown-toggle,
+  .project-details-page .projects-filter .dropdown-menu {
+    border-radius: 0;
+  }
+  .projects-list .project, .project-details-page .project {
+    background-color: #fff;
+    padding: 20px;
+    border-bottom: 1px solid #ddd;
+    position: relative;
+  }
+  .projects-list .project .project-title a, .project-details-page .project .project-title a {
+    color: #2386c8;
+  }
+  .projects-list .project .project-actions, .project-details-page .project .project-actions {
+    display: flex;
+    position: absolute;
+    right: 17px;
+    top: 25px;
+  }
+  .projects-list .project .project-actions button, .project-details-page .project .project-actions button {
+    font-size: 13px;
+    border-radius: 0;
+  }
+  .projects-list .project .project-info, .project-details-page .project .project-info {
+  
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 12px;
+  }
+  
+  .pagination .page-item a {
+    border-radius: 0 !important;
+  }
+  
+  .project-details-page .project-actions {
+    display: flex;
+    align-items: center;
+  }
+  .project-details-page .project-actions button {
+    border-radius: 0;
+  }
+  .project-details-page .freelancer-info {
+    font-size: 12px;
+  }/*# sourceMappingURL=style.css.map */

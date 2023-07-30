@@ -1,0 +1,79 @@
+
+
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <h1 class="mt-4">Users Statistics</h1>
+            </div>
+        </div>
+        <div class="row" *ngIf="userStatistics">
+            <div class="col-lg-4 col-6">
+              <!-- small card -->
+              <div class="small-box bg-info">
+                <div class="inner">
+                  <h3>{{userStatistics.projectsCount}}</h3>
+  
+                  <p>Projects</p>
+                </div>
+                <div class="icon">
+                    <i class="fa-regular fa-newspaper"></i>
+                </div>
+                <a href="#" class="small-box-footer">
+                  More info <i class="fas fa-arrow-circle-right"></i>
+                </a>
+              </div>
+            </div>
+            <!-- ./col -->
+            <div class="col-lg-4 col-6">
+              <!-- small card -->
+              <div class="small-box bg-success">
+                <div class="inner">
+                  <h3>{{userStatistics.freelancerCount}}</h3>
+  
+                  <p>Freelancers</p>
+                </div>
+                <div class="icon">
+                    <i class="fa-solid fa-person"></i>
+                </div>
+                <a routerLink="/users/freelancers" class="small-box-footer">
+                  More info <i class="fas fa-arrow-circle-right"></i>
+                </a>
+              </div>
+            </div>
+            <!-- ./col -->
+            <div class="col-lg-4 col-6">
+              <!-- small card -->
+              <div class="small-box bg-warning">
+                <div class="inner">
+                  <h3>{{userStatistics.clientCount}}</h3>
+  
+                  <p>Clients</p>
+                </div>
+                <div class="icon">
+                    <i class="fa-regular fa-user"></i> 
+                </div>
+                <a routerLink="/users/clients" class="small-box-footer">
+                  More info <i class="fas fa-arrow-circle-right"></i>
+                </a>
+              </div>
+            </div>
+            <div class="col-lg-4 col-6">
+              <!-- small card -->
+              <div class="small-box bg-warning">
+                <div class="inner">
+                  <h3>{{userStatistics.offersCount}}</h3>
+  
+                  <p>Offers</p>
+                </div>
+                <div class="icon">
+                    <i class="fa-regular fa-user"></i> 
+                </div>
+                <a routerLink="/offers" class="small-box-footer">
+                  More info <i class="fas fa-arrow-circle-right"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+    </div>
+
+
